@@ -40,9 +40,14 @@ app.get("/notes", function(req, res) {
 });
 
 
-app.get("/api/notes", (req, res) => {
-    return res.json(notes);
-});
+// app.get("/api/notes", (req, res) => {
+//     return res.json(notes);
+// });
+
+app.get("/api/notes", function(req, res) {
+    var db = fs.readFileSync("./db/db.json", "utf8");
+    return res.json(JSON.parse(db));
+})
 
 
 app.post("/api/notes", (req, res) => {
