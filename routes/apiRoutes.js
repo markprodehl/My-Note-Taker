@@ -44,10 +44,16 @@ module.exports = function(app) {
 
         try {
             const data = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
+            let newId;
+            if (data.length > 0) {
+                newId = data[data.length - 1].id + 1;
+            } else {
+                newId = 1;
+            }
             data.push({
                 ...req.body,
-                id: data[data.length - 1].id + 1
-            })
+                id: newId
+            });
             fs.writeFileSync(DB_PATH, JSON.stringify(data))
             res.json(data)
         } catch (error) {
