@@ -4,7 +4,7 @@
             
  # Description:
             
- My Note Taker is an application that can be used to write, save, and delete notes. This application uses an express backend and save and retrieve note data from a JSON file.
+ My Note Taker is an application that can be used to write, save, and delete notes. The application uses an express backend to save and retrieve note data from a JSON file.
             
  # Table Of Contents
             
