@@ -44,7 +44,7 @@
             
  # Instructions
             
-The user simply clicks the get started button, which will display the notes dashboard. The user can then add a note title and text body then click save to store the note. To delete a note, click the delete icon. To retrieve a note, select the desired note.
+The user simply clicks the get started button, which will display the notes dashboard. The user can then add a note title and text body then click save to store the note. To delete a note, click the delete icon. To retrieve a note, select the desired note. The deployed application can be found using this URL: https://my-note-taker-mp.herokuapp.com/.
             
  # Contact
             
