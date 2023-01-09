@@ -4,7 +4,7 @@
             
  # Description:
             
- My Note Taker is an application that can be used to write, save, and delete notes. The application uses an express backend to save and retrieve note data from a JSON file.
+ My Note Taker is an application that can be used to save and delete notes. The application uses an express backend to save and retrieve note data from a JSON file.
             
  # Table Of Contents
             
@@ -24,11 +24,17 @@
             
  # Installation
             
- To run the application, first follow these instructions: Run ‘npm init’, then ‘npm install inquirer express’. The application will not run without the inquirer and express dependencies. To run, use the command line and type, ‘node server.js’.
+Run `npm init`, 
+
+then `npm install inquirer express`. The application will not run without the inquirer and express dependencies. 
+
+To run the app type, `node server.js` in the command line.
             
  # User Story
             
- My Note Taker is used to write and save notes as well as delete notes that have been completed. This improves the user’s ability to organize thoughts and keep track of tasks while on the go.
+As a user I need a place to save and delete notes throughout my day 
+
+My Note Taker allows the user organize thoughts and keep track of tasks while on the go.
             
  # License
             
@@ -38,13 +44,19 @@
             
  Mark Prodehl
             
- # Tests
-            
- Application has been deployed to Heroku with no errors.
-            
  # Instructions
             
-The user simply clicks the get started button, which will display the notes dashboard. The user can then add a note title and text body then click save to store the note. To delete a note, click the delete icon. To retrieve a note, select the desired note. The deployed application can be found using this URL: https://the-notebook.herokuapp.com/.
+Click `Get Started` to display the dashboard 
+
+Add a note title and some text 
+
+Click the `save` icon on the top right of the dashboard
+
+To open a note, find the note title in the list on the left hand side and click on it
+
+To delete a note, simply click the `delete` icon next to the unwanted note. 
+
+The deployed application can be found using this URL: https://the-notebook.herokuapp.com/.
             
  # Contact
             
